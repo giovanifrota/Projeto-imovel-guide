@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imovel Guide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h3 class="desktop-text">DESKTOP</h3>
+        <h3 class="mobile-text">Mobile</h3>
+        <nav>
+           <h3 class="logo-texto"><img class="logo" src="img/Design sem nome.png" alt="">Imóvel <br> Guide</h3>
+            <ul class="nav-left">
+                <a href="#">
+                    <li>Condominios</li>
+                </a>
+                <a href="#">
+                    <li>Fórum</li>
+                </a>
+                <a href="#">
+                    <li>Guia</li>
+                </a>
+                <a href="#">
+                    <li>Artigos</li>
+                </a>
+                <a href="#">
+                    <li>Ferramentas</li>
+                </a>
+            </ul>
+    
+            <ul class="nav-right">
+                <a href="#">
+                    <li>Cotar Imóvel</li>
+                </a>
+                <a href="#">
+                    <li>Planos</li>
+                </a>
+                <a href="#">
+                    <li>Entrar</li>
+                </a>
+                <button class="botao-nav">CADASTRAR - SE</button>
+            </ul>
+            <div class="mobile-menu-icon">
+                <button id="menuButton" onclick="menuShow()"><img class="icon" src="img/menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+        <div id="mobileMenu" class="mobile-menu">
+            <ul>
+                <a href="#">
+                    <li>Condominios</li>
+                </a>
+                <a href="#">
+                    <li>Fórum</li>
+                </a>
+                <a href="#">
+                    <li>Guia</li>
+                </a>
+                <a href="#">
+                    <li>Artigos</li>
+                </a>
+                <a href="#">
+                    <li>Ferramentas</li>
+                </a>
+                <a href="#">
+                    <li>Cotar Imóvel</li>
+                </a>
+                <a href="#">
+                    <li>Planos</li>
+                </a>
+                <a href="#">
+                    <li>Entrar</li>
+                </a>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="primeira-pagina">
+            <div class="content">
+                <img class="img-corretor" src="img/feliz-bonito-mulher-jovem-posar-camera-em-parque-cidade.jpg" alt="">
+                <div class="text">
+                    <h2>Nome Corretora</h2>
+                    <p>3.000 pontos</p>
+                    <a class="ver-telefone" href="#">Ver telefone</a>
+                    <p class="numero-telefone" style="display:none;">(99) 99999-9999.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="primeira-pagina">
+            <div class="content">
+                <img class="img-corretor" src="img/cara-elegante-confiante-com-tatuagens-posando-na-varanda-do-apartamento.jpg" alt="">
+                <div class="text">
+                    <h2>Nome Corretor</h2>
+                    <p>3.000 pontos</p>
+                    <a class="ver-telefone" href="#">Ver telefone</a>
+                    <p class="numero-telefone" style="display:none;">(99) 99999-9999.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="segunda-pagina">
+            <form action="">
+                <h1>Mande uma mensagem:</h1>
+                <div class="input-wrapper">
+                    <input class="cpf" type="text" placeholder="Digite seu CPF">
+                    <input class="tel" type="tel" placeholder="Digite seu Telefone">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Digite o assunto"></textarea>
+                <button class="botao-enviar">Enviar Mensagem</button>
+            </form>
+    </section>
+    <div class="terceira-pagina">
+        <h2>Regra de 3</h2>
+        <div class="linha">
+            <input id="valor1" class="regra-3" type="text" placeholder="60">
+            <span class="linha-divisoria"></span>
+            <input id="valor2" class="regra-3" type="text" placeholder="100">
+        </div>
+        <br>
+        <div class="linha">
+            <input id="valor3" class="regra-3" type="text" placeholder="30">
+            <span class="linha-divisoria"></span>
+            <input id="resultado" class="regra-3" type="text">
+        </div>
+        <br>
+        <button id="calcular" class="botao-3">Calcular</button>
+    </div>
+
+    <div class="quarta-pagina">
+        <img class="height-img" src="img/renderizacao-3d-do-modelo-de-casa.jpg" alt="">
+        <button class="botao-img">ABRIR IMAGEM NO MODAL</button>
+    </div>
+    <div class="quinta-pagina">
+        <div class="img-wrapper">
+            <img class="height-img" src="img/renderizacao-3d-do-modelo-de-casa.jpg" alt="">
+            <label class="label-img">Imóvel Guide</label>
+        </div>
+        <button class="botao-meio-img">download</button>
+    </div>
+    <div class="sexta-pagina">
+        <img class="height-img" src="img/renderizacao-3d-do-modelo-de-casa.jpg" alt="">
+    </div>
+
+    <footer>
+        <div class="menu-footer">
+            <a class="navegacao-footer" href="">Termos</a>
+            <a class="navegacao-footer" href="">Contatos</a>
+            <a class="navegacao-footer" href="">Sobre</a>
+        </div>
+        <div class="footer-content">
+            <p class="copy">&copy;Copyright 2022. Todos os direitos reservados.</p>
+            <h3 class="logo-texto"><img class="logo" src="img/Design sem nome.png" alt="">Imóvel <br> Guide</h3>
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
